@@ -14,6 +14,7 @@
 		020298FA23EA54CC00DF2AAB /* CryptoBiometricAuth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 020298F823EA54CC00DF2AAB /* CryptoBiometricAuth.xcdatamodeld */; };
 		020298FC23EA54CD00DF2AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020298FB23EA54CD00DF2AAB /* Assets.xcassets */; };
 		020298FF23EA54CD00DF2AAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020298FD23EA54CD00DF2AAB /* LaunchScreen.storyboard */; };
+		0202990723EA56CF00DF2AAB /* CryptoSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0202990623EA56CF00DF2AAB /* CryptoSingleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		020298FB23EA54CD00DF2AAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		020298FE23EA54CD00DF2AAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0202990023EA54CD00DF2AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0202990623EA56CF00DF2AAB /* CryptoSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoSingleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		020298EE23EA54CC00DF2AAB /* CryptoBiometricAuth */ = {
 			isa = PBXGroup;
 			children = (
+				0202990623EA56CF00DF2AAB /* CryptoSingleton.swift */,
 				020298EF23EA54CC00DF2AAB /* AppDelegate.swift */,
 				020298F123EA54CC00DF2AAB /* SceneDelegate.swift */,
 				020298F323EA54CC00DF2AAB /* ViewController.swift */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0202990723EA56CF00DF2AAB /* CryptoSingleton.swift in Sources */,
 				020298F423EA54CC00DF2AAB /* ViewController.swift in Sources */,
 				020298F023EA54CC00DF2AAB /* AppDelegate.swift in Sources */,
 				020298FA23EA54CC00DF2AAB /* CryptoBiometricAuth.xcdatamodeld in Sources */,
@@ -291,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5X6YQBW57B;
 				INFOPLIST_FILE = CryptoBiometricAuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5X6YQBW57B;
 				INFOPLIST_FILE = CryptoBiometricAuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
